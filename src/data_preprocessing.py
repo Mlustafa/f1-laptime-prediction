@@ -10,6 +10,7 @@ session.load()
 
 # Get lap data
 laps = session.laps
+
 df = laps[['Driver', 'LapTime', 'Compound', 'LapNumber']]
 
 # Save to CSV !(Change to data folder)!
